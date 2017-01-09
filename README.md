@@ -4,4 +4,4 @@ Ceci est le code source du site web du programmer «À mon tour de programmer».
 
 ## TODO
 
-- Utiliser vraiment l'url.
+- https fonctionnel via cloudflare
