@@ -11,9 +11,10 @@ figcaption {max-width: 100%; }
 iframe {max-width: 100%;}
 button {font-size: 200%}
 
-section { max-width:80em; margin:auto; margin-bottom: 3em;}
+section, .header { max-width:70em; margin:auto; }
+section { margin-bottom: 3em;}
 
-.header { max-width:80em; margin:auto; text-align:center; }
+.header { text-align:center; }
 .main-title {font-style:italic; text-align:center;font-size:2.5em;}
 .main-title:before {content:"«";}
 .main-title:after {content:"»";}
