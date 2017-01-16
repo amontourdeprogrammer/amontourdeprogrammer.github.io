@@ -3,28 +3,27 @@
   src: url("Ubuntu-L.ttf");
 }
 
-body { font-family:"Ubuntu Light Italic"; margin-left: 5%; margin-right: 5%; margin-bottom: 100px;}
+body { font-family:"Ubuntu Light Italic"; margin-left: 5%; margin-right: 5%; margin-bottom: 100px; }
 
-figure {max-width: 80%; text-align:center;}
+figure {max-width: 80%; text-align:center; }
 figcaption {max-width: 100%; }
 
-iframe {max-width: 100%;}
+iframe {max-width: 100%;  border: 0; margin: 0 ; }
 
 section, .header { max-width:70em; margin:auto; }
-section { margin-bottom: 3em;}
+section { margin-bottom: 3em; }
 
 .header { text-align:center; }
-.main-title {font-style:italic; text-align:center;font-size:2.5em;}
-.main-title:before {content:"«";}
-.main-title:after {content:"»";}
-.portrait {max-width:10em; max-height:10em}
-.inspiration {list-style:none}
-.inspiration li {float:left; max-width:10em;margin:2em}
+.main-title {font-style:italic; text-align:center;font-size:2.5em; }
+.main-title:before {content:"«"; }
+.main-title:after {content:"»"; }
+.portrait {max-width:10em; max-height:10em; }
+.inspiration {list-style:none; }
+.inspiration li {float:left; max-width:10em;margin:2em ; }
 
 @media (max-width: 700px) {
-  body {font-size: 150%;}
-  img {max-width: 100%;}
-  small {font-size: 50% ;}
-  button {font-size: 100%}
+  body {font-size: 150%; }
+  img {max-width: 100%; }
+  small {font-size: 50% ; }
+  button {font-size: 100% ; }
 }
-
