@@ -77,12 +77,11 @@ button {font-size: 100% ; }
   padding:25px 10px ;
       }
 ul{
-display:inline-flex; /* Aligne la liste horizontalement /
-list-style-type:none; / Retire les puces devant les éléments de liste */
+display:inline-flex; /* Aligne la liste horizontalement /*
+list-style-type:none;
 margin:0px;
 padding:0px;
 float:right;
-text-decoration:none;
 }
 
 ul li{
