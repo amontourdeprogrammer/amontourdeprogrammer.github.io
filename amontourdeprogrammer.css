@@ -82,6 +82,7 @@ list-style-type:none; / Retire les puces devant les éléments de liste */
 margin:0px;
 padding:0px;
 float:right;
+text-decoration:none;
 }
 
 ul li{
