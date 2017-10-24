@@ -27,3 +27,126 @@ section { margin-bottom: 3em; }
   small {font-size: 50% ; }
   button {font-size: 100% ; }
 }
+
+
+.show-menu {
+color: #fff;
+background: #555;
+position:sticky;
+text-decoration: none;
+padding: 10px;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+display: none;
+}
+
+.show-menu:hover,
+.show-menu:focus {
+color: #1c1c1c;
+background: #E5E5E5;
+}
+
+input[type=checkbox]{
+display: none;
+}
+
+input[type=checkbox]:checked ~ #menuSite{
+display: block;}
+
+@media (max-width: 700px) {
+body {font-size: 150%; }
+img {max-width: 100%; }
+small {font-size: 50% ; }
+button {font-size: 100% ; }
+}
+
+@media screen and (min-width: 900px)
+{
+
+.header-nav{
+  background-color:#fff;
+  position:sticky;
+  text-align:center;
+  width:100%;
+  top:0;
+  left:0;
+  padding:25px 10px ;
+      }
+ul{
+display:inline-flex; /* Aligne la liste horizontalement /
+list-style-type:none; / Retire les puces devant les éléments de liste */
+margin:0px;
+padding:0px;
+float:right;
+}
+
+ul li{
+margin-left:50px;
+}
+
+ul li a {
+	color:#000;
+	text-decoration:none;
+	}
+
+ul li :hover{
+	background-color:#E5E5E5;
+	}
+}
+
+@media screen and (max-width: 900px)
+{
+
+.header-nav{
+     text-align:center;
+    width:100%;
+     top:0;
+    left:0;
+    padding:10px 0px 10px 0px;
+      }
+.header-nav ul{
+margin:10px auto;
+padding:0px;
+list-style-type:none;
+visibility: hidden;
+opacity: 0;
+transition: visibility 0s, opacity 0.5s linear;
+
+      }
+.header-nav ul li{
+background-color:#E5E5E5;
+border-bottom:solid 2px #555;
+/display: none;/
+}
+
+.header-nav ul li a:hover {
+display: block;
+}
+.header-nav ul li:hover{
+background-color:#555;
+color:#fff;
+cursor:pointer;
+}
+
+.header-nav:hover ul{
+   visibility: visible;
+   opacity: 1;
+    }
+	
+ul li a {
+	color:#000;
+	text-decoration:none;
+	}
+
+ul li :hover{
+	color:#fff;
+	}
+	  
+.show-menu{
+	display:block;
+}
+}
