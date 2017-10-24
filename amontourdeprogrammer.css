@@ -77,7 +77,7 @@ button {font-size: 100% ; }
   padding:25px 10px ;
       }
 ul{
-display:inline-flex; /* Aligne la liste horizontalement /*
+display:inline-flex;
 list-style-type:none;
 margin:0px;
 padding:0px;
