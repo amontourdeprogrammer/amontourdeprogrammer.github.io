@@ -11,6 +11,8 @@ figcaption {max-width: 100%; }
 section, .header { max-width:70em; margin:auto; }
 section { margin-bottom: 3em; }
 
+dt {font-weight:bolder;margin-top:2em}
+
 .header { text-align:center; }
 .main-title {font-style:italic; text-align:center;font-size:2.5em; }
 .main-title:before {content:"«"; }
